@@ -11,7 +11,6 @@ let package = Package(
 		.target(
             name: "CLua",
             dependencies: [],
-            exclude: ["lua.c"],
             cSettings: [
                 .define("LUA_USE_MACOSX"),
             ]
